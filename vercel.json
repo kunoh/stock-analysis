@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/yahoo/:path*", "destination": "/api/yahoo-handler?_p=:path*" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
